@@ -1,0 +1,51 @@
+{% extends 'base.html' %} {% block content %} {{block.super}}
+
+<div class="container" style="background-color:gainsboro;position:relative;top:-20px;
+">
+    <div class="row">
+        <h1 style="position:relative;left:25px;top:-8px;" class="page-header">Photos</h1>
+        <div class="col-lg-12 photo-div">
+            
+              {% for photo in photos %}
+
+                <div class="">
+                        <a 
+                         
+                          data-toggle="modal" data-title="{{photo.Image_name}}" data-caption="{{photo.description}}" {{photo.location}}{{photo.category}} data-target="#{{photo.id}}">
+                            <img style="width:370px; float:left; 
+                             ;height:250px;padding:3px; position:relative;right:-5px;top:-20px;border:2px white dotted;" src="{{photo.Image.url}}" alt="Image" id="img{{photo.id}}" class="img-responsive home-image" 
+                            >
+                        </a>
+               
+                </div>
+
+                <div class="modal fade" id="{{photo.id}}">
+                    <div class="modal-dialog modal-dialog-centered"style="max-width: 100px!important;" role="document">
+                      <div class="modal-content">
+                          <div class="card" style="width:500px">
+                              <img class="card-img-top" src="{{ photo.Image.url }}" alt="Card image" style="width:100%">
+                              <div class="card-body">
+                                <h4 class="card-title"><small>Photo name : </small>{{photo.Image_name}}</h4>
+
+                                <p style="font-family: 'Lato', serif" class="card-text">Description : {{photo.description}}</p>
+                                <h4 class="card-title"><small>Location : </small>{{photo.location}}</h4>
+                                <h4 class="card-title"><small>Category : </small>{{photo.category}}</h4>
+
+                                <button type="button" class="btn btn-secondary" onclick="copyToClipboard('img{{photo.id}}')">Copy Link</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                      </div>
+                    </div>
+                </div>
+
+              {% empty %}
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <h2 class="text-center">No pics yet</h2>
+                </div>
+                {% endfor %}
+        </div>
+    </div>
+  </div>
+{% endblock %}

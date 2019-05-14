@@ -1,0 +1,49 @@
+<nav style="background-attachment:fixed;" class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="/">Gallery</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" style="position:relative; left:150px;" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown" >
+              <a class="nav-link dropdown-toggle droptown-toggle disabled" href="#" id="navbarDropdownMenuLin" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Locations
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        {% for location in locations %}
+                        <a href="/location/{{locations}}" class="btn badge-pill px-3 my-2 btn-outline-success mx-2">
+                            <span>{{ location }}</span>
+                        </a>
+                {% endfor %}
+              </div>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Categories
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        {% for category in categories %}
+                        <a href="/category/{{category}}" class="btn badge-pill px-3 my-2 btn-outline-success mx-2">
+                            <span>{{ category}}</span>
+                        </a>
+                {% endfor %}
+              </div>
+              </a>
+      </li>
+      </ul>
+    </div>
+
+      <form class="form-inline my-2 my-lg-0" style="position:relative;left:-400px; " role="search" action="{%url 'search_results'%}">
+        {% csrf_token %}
+       <input class="form-control mr-sm-2" type="search" placeholder="search by Category" name="image" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" style="position:relative; right:2px;" type="submit"><i class="fa fa-search fa-lg"></i></button>
+      </form>
+  </div>
+
+</nav>
+
+
+
+
+
+
