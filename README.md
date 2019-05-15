@@ -25,15 +25,6 @@ This is a personal gallery application that enables you to display various photo
 
 
 ## Models
-### Image Model
-* Fields: Image, Image Name, Image Description, Image Location Foreign Key and Image category Foreign Key.
-
-* `save_image()` - Save an image to the database.
-* `delete_image()` - Delete image from the database.
-* `update_image()` - Update image in the database.
-* `get_image_by_id(id)` - Allows us to get an image using its ID.
-* `search_image(category)` - Allows us to search for an image using its category.
-* `filter_by_location(location)` - Allows us to filter images by the location.
 
 ### Location and Category models
 * Location and category that link to the Image model.
