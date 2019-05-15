@@ -1,7 +1,7 @@
       Gallary
 ===================
 ## Description
-This is a personal gallery application that enables you to dispay various photos of ```workout,Fashion and Travel.```
+This is a personal gallery application that enables you to display various photos of ```Diet,Fashion and Exercise.```
 
 ------------------------------------------------------------------------
 
