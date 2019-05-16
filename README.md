@@ -31,7 +31,8 @@ This is a personal gallery application that enables you to display various photo
 * `save`, `update` and `delete` methods in both models
 
 ## Admin Dashboard
-Use django admin to post photos to the database and manage the photos
+Use django admin to post photos to the database and manage the photos also note that when you do this
+ then then those photos may disappear after sometime.
 
 ## Setup
 
