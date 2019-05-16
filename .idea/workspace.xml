@@ -2,8 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e284340-44ca-49d8-be6c-7443da5880a1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0002_auto_20180928_0034.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0003_auto_20180928_0101.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0004_auto_20180928_0120.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0005_auto_20180928_1210.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0006_auto_20180928_1220.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0007_auto_20180928_1237.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0008_auto_20180928_1240.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0009_auto_20180928_1242.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0010_auto_20180928_1257.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0011_auto_20180928_1714.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0012_auto_20180929_0914.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0013_auto_20180930_1005.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0014_auto_20180930_1055.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0015_auto_20180930_1137.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0016_auto_20180930_1152.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0017_auto_20180930_1221.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0018_auto_20180930_1813.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0019_auto_20180930_1821.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0020_auto_20181001_1416.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0021_auto_20181001_1450.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0022_auto_20181001_1502.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0023_auto_20181001_1534.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0024_auto_20181001_1551.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0025_auto_20181001_1601.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0026_auto_20181001_1604.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0027_auto_20181001_1605.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0028_auto_20181001_1636.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0029_auto_20181001_1734.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0030_auto_20181001_1737.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0031_auto_20181224_1538.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0032_auto_20190513_2022.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0033_auto_20190514_0949.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0034_auto_20190514_0955.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0035_auto_20190514_0958.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galla/migrations/0036_auto_20190514_1010.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gallary/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gallary/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,17 +53,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gallary/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2130">
-              <caret line="142" column="34" selection-start-line="142" selection-start-column="34" selection-end-line="142" selection-end-column="34" />
+            <state relative-caret-position="211">
+              <caret line="97" column="29" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protus.pub">
+        <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="75">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -133,6 +172,7 @@
         <option value="$PROJECT_DIR$/galla/views.py" />
         <option value="$PROJECT_DIR$/galla/templates/navbar.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/gallary/settings.py" />
       </list>
     </option>
@@ -148,6 +188,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,22 +205,17 @@
               <item name="personal-gallary" type="b2602c69:ProjectViewProjectNode" />
               <item name="personal-gallary" type="462c0819:PsiDirectoryNode" />
               <item name="galla" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="personal-gallary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-gallary" type="462c0819:PsiDirectoryNode" />
+              <item name="galla" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="personal-gallary" type="b2602c69:ProjectViewProjectNode" />
               <item name="personal-gallary" type="462c0819:PsiDirectoryNode" />
-              <item name="gallary" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personal-gallary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personal-gallary" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personal-gallary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personal-gallary" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
               <item name="gallary" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -190,7 +226,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,9 +260,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25622058" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26294553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -238,7 +272,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.054959785" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.42627347" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -278,17 +312,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/media/gallary/w6.jpeg" />
     <entry file="file://$PROJECT_DIR$/media/gallary/Food5_xwiji8i.jpg" />
-    <entry file="file://$PROJECT_DIR$/gallary/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2130">
-          <caret line="142" column="34" selection-start-line="142" selection-start-column="34" selection-end-line="142" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protus.pub">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/galla/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -360,6 +394,23 @@
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallary/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="97" column="29" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
